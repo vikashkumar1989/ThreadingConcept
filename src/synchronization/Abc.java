@@ -11,7 +11,7 @@ public class Abc extends Thread{
 		this.name=name;
 	}
 	
-	public void run() {
+	public void run(){
 		for(int i=0;i<10;i++) {
 			try {
 				this.h.print(this.name);
@@ -22,5 +22,6 @@ public class Abc extends Thread{
 		}
 		
 	}
+	
 
 }
